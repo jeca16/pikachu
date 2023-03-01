@@ -9,13 +9,22 @@ body{
     height: 100vh;
     display: grid;
     grid-template-rows: 200px 200px 200px;
-    padding: 70px 70px 70px 24px;
-    background-color: salmon;
+    padding: 70px 70px 24px 70px;
+    background-color: rgb(255, 230, 0);
+    color: #8e4106;
+    font-family: 'Righteous' , cursive;
 }
 
-header{
-    background-color: rgb(1, 141, 255);
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 24px
 }
+.logo__text{
+    font-size: 32px;
+    font-weight: 100px;
+}
+
 main{
     background-color: rgb(255, 230, 0);
 }
